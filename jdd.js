@@ -1013,6 +1013,8 @@ var jdd = {
         var left = JSON.parse($('#textarealeft').val());
         var right = JSON.parse($('#textarearight').val());
 
+        jdd.o1 = left;
+        jdd.o2 = right;
 
         var config = jdd.createConfig();
         jdd.formatAndDecorate(config, left);
